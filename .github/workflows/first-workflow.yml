@@ -9,3 +9,6 @@ jobs:
     steps:
       - name: Print message
         run: echo "Hello, GitHub Actions!"
+        run: date
+
+    
