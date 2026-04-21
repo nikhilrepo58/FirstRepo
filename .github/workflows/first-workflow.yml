@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Print message
         run: |
-          - echo "Hello, GitHub Actions!"
-          - date
+          echo "Hello, GitHub Actions!"
+          date
 
     
