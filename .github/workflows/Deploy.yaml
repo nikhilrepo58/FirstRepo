@@ -1,0 +1,13 @@
+name: Deploy
+
+on:
+  workflow_run:
+    workflows: ["Node CI"]   # name of first workflow
+    types:
+      - completed
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Deploying..."
