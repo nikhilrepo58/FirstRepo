@@ -1,7 +1,7 @@
 name: Deploy
 
 #on:
-  workflow_run:
+ # workflow_run:
     workflows: ["Build"]   # name of first workflow
     types:
       - completed
