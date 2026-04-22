@@ -14,14 +14,12 @@ jobs:
         with:
           node-version: '24.15.0'
 
-      #- run: npm install
-      #- run: npm test
-          run: echo "success"
+      - run: npm install
+      - run: npm test
 
   build2:
       runs-on: ubuntu-latest
       needs: build1
-      if: ${{ needs.build1.outputs.result == 'success' }}
       steps:
         - name: step in job2
           run: echo "Printing this because job1 was successful"
