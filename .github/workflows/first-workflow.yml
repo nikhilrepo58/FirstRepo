@@ -20,7 +20,7 @@ jobs:
   build2:
       runs-on: ubuntu-latest
       needs: build1
-      if: ${{ github.event.build1.conclusion == 'success' }}
+      if: ${{ needs.build1.outputs.result == 'success' }}
       steps:
         - name: step in job2
           run: echo "Printing this because job1 was successful"
