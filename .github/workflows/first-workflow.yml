@@ -15,18 +15,6 @@ jobs:
           node-version: '24.15.0'
 
       - run: npm install
-      - run: npm test
+      - run: npm abcd
   
-  abuild:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v4 # todo whats this
-
-      - name: Install Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-
-      - run: npm install
-      - run: npm test
+  
