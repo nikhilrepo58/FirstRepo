@@ -15,3 +15,11 @@ test2
 <br>
 test3
 test4
+
+
+withuot npm install
+single file
+create docker file
+build docker via github actions
+upload to docker hub via github actions
+

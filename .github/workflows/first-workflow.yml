@@ -1,4 +1,4 @@
-name: Node CI
+name: Build
 
 on: push
 
@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: '24.15.0'
 
-      - run: npm install
-      - run: npm abcd
+      # - run: npm install
+      - run: npm test
   
   
