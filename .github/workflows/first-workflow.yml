@@ -1,19 +1,47 @@
+<<<<<<< HEAD
 name: Node CI
+=======
+name: Build
+>>>>>>> main
 
 on: push
 
 jobs:
+<<<<<<< HEAD
   build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+=======
+  build1:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4 # todo whats this
+>>>>>>> main
 
       - name: Install Node
         uses: actions/setup-node@v4
         with:
+<<<<<<< HEAD
           node-version: '18'
 
       - run: npm install
       - run: npm test
+=======
+          node-version: '24.15.0'
+
+      - run: npm install
+      - run: npm test
+
+  build2:
+      runs-on: ubuntu-latest
+      needs: build1
+      steps:
+        - name: step in job2
+          run: echo "Printing this because job1 was successful"
+  
+  
+>>>>>>> main

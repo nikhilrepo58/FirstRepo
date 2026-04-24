@@ -1,0 +1,25 @@
+{
+  "name": "firstrepo",
+  "version": "1.0.0",
+  "description": "My first git repo <br> Author - Nikhil Aggarwal <br> Test self commit <br> Changing on web <br> Changing in vs code by branch test <br> test1 <br> test2 <br> test3 test4",
+  "homepage": "https://github.com/nikhilrepo58/FirstRepo#readme",
+  "bugs": {
+    "url": "https://github.com/nikhilrepo58/FirstRepo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilrepo58/FirstRepo.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+  "test": "jest"
+},
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
+
+
