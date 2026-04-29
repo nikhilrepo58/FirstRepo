@@ -1,3 +1,4 @@
+/* eslint-disable */
 const add = require('./math');
 
 test('adds 2 + 3 = 5', () => {
