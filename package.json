@@ -15,11 +15,13 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-  "test": "jest"
-},
+    "test": "jest",
+    "lint": "eslint ."
+  },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.1",
+    "globals": "^17.5.0",
     "jest": "^30.3.0"
   }
 }
-
-
