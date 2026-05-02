@@ -1,8 +1,8 @@
 {
   "name": "node-docker-app",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "node.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node node.js"
   }
 }

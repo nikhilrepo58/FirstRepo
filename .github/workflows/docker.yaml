@@ -3,6 +3,7 @@ name: Docker Build using actions
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   docker-build:
